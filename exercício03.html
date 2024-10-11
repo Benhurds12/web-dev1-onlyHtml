@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h2>User Information Form</h2>
+    <form action="processar_dados.html" method="get">
+        
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+    </div>
+
+    <div>
+        <label>Idade:</label>
+        <input type="radio" id="under18" name="age" value="<18">
+        <label for="under18">&lt; 18</label>
+        
+        <input type="radio" id="19-35" name="age" value="19-35">
+        <label for="19-35">19-35</label>
+        
+        <input type="radio" id="36-48" name="age" value="36-48">
+        <label for="36-48">36-48</label>
+        
+        <input type="radio" id="over49" name="age" value=">49">
+        <label for="over49">&gt; 49</label>
+    </div>
+
+    <label for="profissao">Profissão:</label>
+    <input type="text" id="profissao" name="profissao" required><br><br>
+
+    <label for="pais">País:</label>
+    <select id="pais" name="pais" required>
+      <option value="">Selecione um país</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Estados Unidos">Estados Unidos</option>
+      <option value="Argentina">Argentina</option> 
+    </select>
+
+      <div>
+        <label>Interesses:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="Esportes">
+        <label for="sports">Esportes</label><br>
+        <input type="checkbox" id="music" name="interests" value="Música">
+        <label for="music">Música</label><br>
+        <input type="checkbox" id="reading" name="interests" value="Leitura">
+        <label for="reading">Leitura</label><br>
+        <input type="checkbox" id="travel" name="interests" value="Viagem">
+        <label for="travel">Viagem</label><br>
+    </div>
+  
+    <label for="como_soube">Como você soube sobre este site?</label>
+    <textarea id="como_soube" name="como_soube" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+ 
+</form>
+</body>
+</html>
