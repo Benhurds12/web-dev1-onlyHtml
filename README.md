@@ -1,10 +1,9 @@
 
-Atividade 1 da disciplina de desenvolvimento web, usando apenas html para fazer 4 exercícios
 
-replicação de site de notícias/jornal
+Este repositório contém soluções para exercícios de HTML 5, cobrindo conceitos básicos de estruturação de página e formulários para resolução da 1° atividade da disciplina de desenvolvimento web, desafio usando apenas HTML. 
 
-replicação de tabela de notas/boletim
-
-replica de formulário online 
-
-e replica de um perfil de rede social
+Exercícios resolvidos:
+Jornal Online: Criação de um protótipo de jornal online utilizando tags semânticas para separar header, menu e corpo da página.
+Tabela: Construção de uma tabela HTML simples com bordas para visualizar o resultado.
+Formulário: Desenvolvimento de um formulário para coleta de dados pessoais, incluindo radio buttons, dropdown e lista de seleção múltipla.
+Perfil de Rede Social: Simulação de um perfil básico de rede social com cabeçalho, menu, dados pessoais e seção de posts.
